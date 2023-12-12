@@ -1,27 +1,24 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: "UI Garden",
+    description: "A React/Typescript Component Library",
     image: "./project-1.gif",
     link: "https://reactbootcamp.com",
+    tech_list: "React, TypeScript",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: "Ecommerce Site",
+    description: "Built using Ruby on Rails",
     image: "./project-2.gif",
     link: "https://reactbootcamp.com",
+    tech_list: "Ruby on Rails",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: "PC Game Sales",
+    description: "A React App to show PC games on sale",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://codesandbox.io/p/sandbox/pc-game-sales-1vut6g",
+    tech_list: "React, CodeSandbox",
   },
   {
     title: "Epic Todo App",
@@ -33,28 +30,39 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
-];
-
 export const skills = [
   "JavaScript",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "MySQL",
+  "PHP",
+  "Ruby on Rails",
+  "HTML",
+  "CSS",
+  "Bootstrap",
 ];
+
+export const resources = [
+  {
+    title:
+      "Lorem ipsum",
+    icon: "",
+    summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    link: "Zoozle",
+  },
+  {
+    title:
+    "Lorem ipsum",
+    icon: "",
+    summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    link: "Zoozle",
+  },
+];
+
+export const setup = [
+  {
+    vscode: "VsCode ...",
+    terminal: "WSL: Ubuntu",
+    editor: "Jesse Hicks",
+  },
+];
+
