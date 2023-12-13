@@ -36,7 +36,7 @@ export default function Projects() {
                    <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.description}
                   </h2>
-                  <p className="leading-relaxed">{project.tech_list}</p>
+                  <p className="leading-relaxed">Tech Used: {project.tech_list}</p>
                 </div>
               </div>
             </a>
