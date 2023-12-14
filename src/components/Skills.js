@@ -16,6 +16,9 @@ export default function Skills() {
             ipsa delectus eum quo voluptas aspernatur accusantium distinctio
             possimus est.
           </p>
+          <h5 className="sm:text-3x1 text-2xl font-medium title-font text-white mb-4">
+            Languages &amp; Frameworks
+          </h5>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
