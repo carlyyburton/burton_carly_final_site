@@ -12,23 +12,29 @@ export default function Setup() {
           Developer Setup
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+            Here is my preferred setup that I have been using for the last two years.
           </p>
-          {setup.map((setup) => (
-              <div className="flex relative">
-                <div className="px-8 py-10 relative z-10 w-full">
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {setup.vscode}
-                  </h1>
-                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {setup.terminal}
-                  </h2>
-                  <p className="leading-relaxed">{setup.editor}</p>
+          <div className="content-center">
+            {setup.map((setup) => (
+              <div className="p-4 w-full">
+                <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded ">
+                  <div className="inline-flex items-center">
+                    <span className="flex-grow flex flex-col pl-4">
+                    <p className="font-medium">
+                        <span className="title-font font-medium text-white">VsCode Theme: </span>{setup.vscode}
+                    </p>
+                    <p className="font-medium">
+                        <span className="title-font font-medium text-white">Terminal: </span>{setup.terminal}
+                    </p>
+                    <p className="font-medium">
+                        <span className="title-font font-medium text-white">Editor Font: </span>{setup.editor_font}
+                    </p>
+                    </span>
+                  </div>
                 </div>
               </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>

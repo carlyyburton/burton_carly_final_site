@@ -70,9 +70,9 @@ export const resources = [
 
 export const setup = [
   {
-    vscode: "VsCode ...",
+    vscode: "Dracula",
     terminal: "WSL: Ubuntu",
-    editor: "Jesse Hicks",
+    editor_font: "\"Consolas, 'Courier New', monospace\"",
   },
 ];
 

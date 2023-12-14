@@ -12,8 +12,8 @@ export default function Skills() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Here are the programming languages/frameworks I am most familiar with.<br/>Next are the tools that I have used the most during my studies.
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto pb-2">
+            Here are the programming languages/frameworks and tools I am most familiar with.
           </p>
           <h5 className="sm:text-3x1 text-2xl font-medium title-font text-white mb-4">
             Languages/Frameworks
