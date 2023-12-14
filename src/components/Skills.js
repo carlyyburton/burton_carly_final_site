@@ -1,6 +1,7 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { BadgeCheckIcon, ChipIcon, CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
+import { tools } from "../data";
 
 export default function Skills() {
   return (
@@ -12,25 +13,38 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+            Here are the programming languages/frameworks I am most familiar with.<br/>Next are the tools that I have used the most during my studies.
           </p>
           <h5 className="sm:text-3x1 text-2xl font-medium title-font text-white mb-4">
-            Languages &amp; Frameworks
+            Languages/Frameworks
           </h5>
-        </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
+          <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+            {skills.map((skill) => (
+              <div key={skill} className="p-2 sm:w-1/2 w-full">
+                <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                  <CodeIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                  <span className="title-font font-medium text-white">
+                    {skill}
+                  </span>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+          <h5 className="sm:text-3x1 text-2xl font-medium title-font text-white mb-4">
+              Tools
+            </h5>
+          <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+            {tools.map((tool) => (
+              <div key={tool} className="p-2 sm:w-1/2 w-full">
+                <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                  <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                  <span className="title-font font-medium text-white">
+                    {tool}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

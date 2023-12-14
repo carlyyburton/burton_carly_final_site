@@ -8,7 +8,7 @@ export const projects = [
   },
   {
     title: "Ecommerce Site",
-    description: "A store to sell cosmetic items. Includes a user login and a checkout.",
+    description: "An online cosmetics shop.",
     image: "./ecommerce.gif",
     link: "https://github.com/carlyyburton/ecommerce_cburton",
     tech_list: "Ruby on Rails",
@@ -22,7 +22,7 @@ export const projects = [
   },
   {
     title: "Communications Site",
-    description: "Displays information about 8 different types of communication.",
+    description: "Describes 8 different types of communication.",
     image: "./comms.gif",
     link: "https://carlyyburton.github.io/COMM1173_Final_Project/",
     tech_list: "HTML, CSS",
@@ -33,11 +33,22 @@ export const skills = [
   "JavaScript",
   "React",
   "MySQL",
-  "PHP",
+  "Python",
   "Ruby on Rails",
   "HTML",
   "CSS",
   "Bootstrap",
+];
+
+export const tools = [
+  "AWS",
+  "VsCode",
+  "PyCharm",
+  "Git",
+  "Docker",
+  "SQL Manager",
+  "GitHub",
+  "Jupyter Notebook",
 ];
 
 export const resources = [
