@@ -61,14 +61,14 @@ export const resources = [
   {
     title: "GitHub",
     icon: "./github.png",
-    summary: "To view all my other projects, take a look my GitHub account!",
+    summary: "To view all my other projects, take a look my GitHub account.",
     link: "https://github.com/carlyyburton",
   },
 ];
 
 export const setup = [
   {
-    vscode: "Dracula",
+    vscode: "vscode_setup.png",
     terminal: "WSL: Ubuntu",
     editor_font: "\"Consolas, 'Courier New', monospace\"",
   },

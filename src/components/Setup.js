@@ -21,8 +21,12 @@ export default function Setup() {
                   <div className="inline-flex items-center">
                     <span className="flex-grow flex flex-col pl-4 space-y-3">
                     <p className="font-medium">
-                        <span className="title-font font-medium text-white">VsCode Theme: </span>{setup.vscode}
+                        <span className="title-font font-medium text-white">VsCode Setup: </span>
                     </p>
+                    <img
+                    alt="vscode settings"
+                    src={setup.vscode}
+                    className=" inline-block mb-4 rounded"/>
                     <p className="font-medium">
                         <span className="title-font font-medium text-white">Terminal: </span>{setup.terminal}
                     </p>
