@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: burton_carly_coding_assignment14
+    image: burton_carly_coding_assignment14
+    build:
+      context: .
+      target: production

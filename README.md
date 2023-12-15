@@ -1,3 +1,7 @@
+# Portfolio Site
+
+## To run this app on localhost:5575 run `PORT=5575 yarn start` in the project directory.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
