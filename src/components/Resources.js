@@ -1,38 +1,37 @@
 import React from "react";
-import { TerminalIcon, DesktopComputerIcon } from "@heroicons/react/solid";
+import { DesktopComputerIcon } from "@heroicons/react/solid";
 import { resources } from "../data";
 
 export default function Resources() {
   return (
     <section id="resources">
-      <div className="container px-5 py-10 mx-auto text-center">
+      <div className="container mx-auto text-center">
         <DesktopComputerIcon className="w-10 inline-block mb-4" />
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
         Resources
         </h1>
-        <div className="flex flex-wrap m-4">
-          {resources.map((resources) => (
-            <div className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
-                <TerminalIcon className="block w-8 text-gray-500 mb-4" />
-                <p className="leading-relaxed mb-6">{resources.title}</p>
-                <div className="inline-flex items-center">
+        <div className="flex flex-wrap -m-4">
+          {resources.map((resource) => (
+            <a
+              href={resource.link}
+              className="sm:w-1/2 w-100 p-4">
+
+              <div className="flex relative">
+
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-50 hover:opacity-100">
                   <img
                     alt="resource"
-                    src={resources.icon}
-                    className="w-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
-                  <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-white">
-                      {resources.summary}
-                    </span>
-                    <span className="text-gray-500 text-sm uppercase">
-                      {resources.link}
-                    </span>
-                  </span>
+                    src={resource.icon}
+                    className="w-8 inline-block mb-4"/>
+                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                    {resource.title}
+                  </h1>
+                   <h2 className="tracking-widest text-m title-font font-medium text-green-400 mb-1">
+                    {resource.summary}
+                  </h2>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

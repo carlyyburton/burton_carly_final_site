@@ -53,18 +53,16 @@ export const tools = [
 
 export const resources = [
   {
-    title:
-      "Lorem ipsum",
-    icon: "",
-    summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    link: "Zoozle",
+    title: "LinkedIn",
+    icon: "./linkedin-logo.png",
+    summary: "If you want to contact me follow the link below.",
+    link: "https://www.linkedin.com/in/-carlyburton/",
   },
   {
-    title:
-    "Lorem ipsum",
-    icon: "",
-    summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    link: "Zoozle",
+    title: "GitHub",
+    icon: "./github.png",
+    summary: "To view all my other projects, here's my GitHub!",
+    link: "https://github.com/carlyyburton",
   },
 ];
 
