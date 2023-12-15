@@ -32,7 +32,7 @@ export const projects = [
 export const skills = [
   "JavaScript",
   "React",
-  "MySQL",
+  "SQL",
   "Python",
   "Ruby on Rails",
   "HTML",
@@ -55,13 +55,13 @@ export const resources = [
   {
     title: "LinkedIn",
     icon: "./linkedin-logo.png",
-    summary: "If you want to contact me follow the link below.",
+    summary: "Click here to view the rest of my skills and find my contact information.",
     link: "https://www.linkedin.com/in/-carlyburton/",
   },
   {
     title: "GitHub",
     icon: "./github.png",
-    summary: "To view all my other projects, here's my GitHub!",
+    summary: "To view all my other projects, take a look my GitHub account!",
     link: "https://github.com/carlyyburton",
   },
 ];

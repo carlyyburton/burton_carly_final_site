@@ -14,12 +14,12 @@ export default function Setup() {
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Here is my preferred setup that I have been using for the last two years.
           </p>
-          <div className="content-center">
+          <div className="flex justify-center items-center">
             {setup.map((setup) => (
-              <div className="p-4 w-full">
-                <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded ">
+              <div className="p-4 w-1/2">
+                <div className="h-full bg-gray-800 bg-opacity-40 p-6 rounded ">
                   <div className="inline-flex items-center">
-                    <span className="flex-grow flex flex-col pl-4">
+                    <span className="flex-grow flex flex-col pl-4 space-y-3">
                     <p className="font-medium">
                         <span className="title-font font-medium text-white">VsCode Theme: </span>{setup.vscode}
                     </p>

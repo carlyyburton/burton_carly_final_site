@@ -13,7 +13,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto pb-2">
-            Here are the programming languages/frameworks and tools I am most familiar with.
+            Here are the programming languages/frameworks and tools I am most proficient in.
           </p>
           <h5 className="sm:text-3x1 text-2xl font-medium title-font text-white mb-4">
             Languages/Frameworks

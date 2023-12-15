@@ -10,7 +10,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />Aspiring Full Stack Developer.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Currently in the full stack web development program at RRC Polytech.
+            Currently completing my diploma in full stack web development at RRC Polytech.<br/>I have been learning to code for the past 2 years and I am passionate about building fun websites!
           </p>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
